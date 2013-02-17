@@ -1,0 +1,31 @@
+{
+  "name": "git-transparent",
+  "version": "0.0.1",
+  "description": "Wrap basic git functionality. Currently: clone, pull",
+  "keywords": [],
+  "author": {
+    "name": "Michael Robinson",
+    "email": "mike@pagesofinterest.net"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/faceleg/git-transparent.git"
+    }
+  ],
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "vows --spec test/api-test.js"
+  },
+  "engines": [
+    "node"
+  ],
+  "main": "./lib/index.js"
+}
