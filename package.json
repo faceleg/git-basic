@@ -1,5 +1,5 @@
 {
-  "name": "git-transparent",
+  "name": "git-basic",
   "version": "0.0.1",
   "description": "Wrap basic git functionality. Currently: clone, pull",
   "keywords": [],
@@ -15,7 +15,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/faceleg/git-transparent.git"
+      "url": "git://github.com/faceleg/git-basic.git"
     }
   ],
   "devDependencies": {
